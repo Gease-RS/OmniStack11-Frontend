@@ -1,10 +1,14 @@
-import React from 'react';
-import Header from './Header'
+import React from 'react'
+
+import Routes from './routes'
+
+import './global.css'
 
 function App() {
+
   return (
-   <Header title="Be The Hero" />
+   <Routes />
   );
 }
 
-export default App;
+export default App
